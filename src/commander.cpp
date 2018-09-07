@@ -21,7 +21,6 @@ double error = 0.001;
 void callBackFunction(const turtlesim::Pose& msg2){
 	ROS_INFO("Pose x = %f", msg2.x);
 	ROS_INFO("Pose y = %f", msg2.y);
-	//ROS_INFO("theta = %f", msg2.theta);
 	
 	x_actual = msg2.x;
 	y_actual = msg2.y;
